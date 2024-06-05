@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:background="@drawable/searchview"
+    >
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image60"
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/firefly_crop"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent"
+        card_view:shapeAppearance="@style/cornerFamilyVerticalCard"
+        />
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text="technology"
+        android:textStyle="bold"
+        card_view:layout_constraintStart_toEndOf="@+id/image60"
+        card_view:layout_constraintTop_toBottomOf="@+id/imageView61"
+        android:fontFamily="@font/scillanarrow_regular"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/strawford_regular"
+        android:text="Step Into Tomorrow: Exploring Spatial Computing's Impact On Industries And The Metaverse!"
+        card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintStart_toEndOf="@+id/image60"
+        card_view:layout_constraintTop_toBottomOf="@+id/category"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="26 Feb 2024"
+        card_view:layout_constraintBottom_toBottomOf="parent"
+        card_view:layout_constraintStart_toEndOf="@+id/image60"
+        android:fontFamily="@font/scilla_regular"
+        android:textColor="#929292"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView61"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        card_view:layout_constraintStart_toEndOf="@+id/image60"
+        card_view:layout_constraintTop_toTopOf="parent"
+        card_view:srcCompat="@drawable/youtube"
+        card_view:shapeAppearance="@style/circular"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

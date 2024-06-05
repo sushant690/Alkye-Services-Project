@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/openBook"
+        android:icon="@drawable/book_open_blank_variant_outline"
+        android:title=""
+        />
+    <item
+        android:id="@+id/bookmark"
+        android:icon="@drawable/bookmark_outline"
+        android:title=""
+        />
+    <item
+        android:id="@+id/tv"
+        android:icon="@drawable/television"
+        android:title=""
+        />
+    <item
+        android:id="@+id/bell"
+        android:icon="@drawable/bell_outline"
+        android:title=""
+        />
+    <item
+        android:id="@+id/user"
+        android:icon="@drawable/account"
+        android:title=""
+        />
+
+</menu>
